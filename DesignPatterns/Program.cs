@@ -1,5 +1,4 @@
-﻿using DesignPatterns.ChainOfResponsibity;
-using System;
+﻿using System;
 
 namespace DesignPatterns
 {
