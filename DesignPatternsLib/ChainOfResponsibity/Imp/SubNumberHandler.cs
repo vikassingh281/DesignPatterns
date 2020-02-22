@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.ChainOfResponsibity.Imp
+namespace DesignPatternsLib.ChainOfResponsibity.Imp
 {
-    public class MulNumberHandler : BaseHandler
+    public class SubNumberHandler : BaseHandler
     {
         public override object ProcessRequest(Request request)
         {
             CalculatorModel calculator = (CalculatorModel)request.Data;
-            if (calculator.CalculationType == CalculationType.Mul)
+            if (calculator.CalculationType == CalculationType.Sub)
             {
-                return calculator.FNumber * calculator.SNumber;
+                return calculator.FNumber - calculator.SNumber;
             }
             else
                 return Handler.ProcessRequest(request);

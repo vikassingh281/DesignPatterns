@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.ChainOfResponsibity
+namespace DesignPatternsLib.ChainOfResponsibity
 {
     public interface IHandler
     {

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ChainOfResponsibity\IHandler.cs~RF6798ff.TMP" />
+    <ProjectReference Include="..\DesignPatternsLib\DesignPatternsLib.csproj" />
   </ItemGroup>
 
 </Project>

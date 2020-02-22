@@ -1,5 +1,5 @@
-﻿using DesignPatterns.ChainOfResponsibity;
-using DesignPatterns.ChainOfResponsibity.Imp;
+﻿using DesignPatternsLib.ChainOfResponsibity;
+using DesignPatternsLib.ChainOfResponsibity.Imp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

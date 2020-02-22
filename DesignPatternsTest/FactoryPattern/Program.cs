@@ -1,6 +1,6 @@
-﻿using DesignPatterns.FactoryPattern;
-using DesignPatterns.FactoryPattern.Factory;
-using DesignPatterns.FactoryPattern.PaymentMethod;
+﻿using DesignPatternsLib.FactoryPattern;
+using DesignPatternsLib.FactoryPattern.Factory;
+using DesignPatternsLib.FactoryPattern.PaymentMethod;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

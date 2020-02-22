@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FactoryPattern.Factory
+namespace DesignPatternsLib.FactoryPattern.Factory
 {
     public abstract class PaymentMethodFactory
     {

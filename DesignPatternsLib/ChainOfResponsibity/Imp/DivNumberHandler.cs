@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.ChainOfResponsibity.Imp
+namespace DesignPatternsLib.ChainOfResponsibity.Imp
 {
     public class DivNumberHandler : BaseHandler
     {

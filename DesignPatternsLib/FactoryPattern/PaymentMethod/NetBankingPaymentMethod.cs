@@ -1,9 +1,9 @@
-﻿using DesignPatterns.FactoryPattern.Factory;
+﻿using DesignPatternsLib.FactoryPattern.Factory;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FactoryPattern.PaymentMethod
+namespace DesignPatternsLib.FactoryPattern.PaymentMethod
 {
     public class NetBankingPaymentMethod : PaymentMethodFactory
     {
